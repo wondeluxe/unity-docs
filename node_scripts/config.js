@@ -8,7 +8,7 @@ export default new DocsConfig({
 	doxyfile: 'doxygen/Doxyfile',
 	xmlOutputPath: 'doxygen/XML',
 	templatesFile: 'templates/templates.json',
-	siteOutputPath: 'develop',
+	siteOutputPath: 'docs',
 	urlRootPath: 'http://localhost/unity',
 	apiSubPath: 'API',
 	searchdataSubPath: 'scripts',
