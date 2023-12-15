@@ -9,7 +9,7 @@ export default new DocsConfig({
 	xmlOutputPath: 'doxygen/XML',
 	templatesFile: 'templates/templates.json',
 	siteOutputPath: 'docs',
-	urlRootPath: 'http://localhost/unity',
+	urlRootPath: 'https://wondeluxe.github.io/unity-docs',
 	apiSubPath: 'API',
 	searchdataSubPath: 'scripts',
 	projects: {
