@@ -30,6 +30,12 @@ export default new DocsConfig({
 			sourceInputPaths: sourcepaths.android,
 			xmlSubPath: 'Wondeluxe Android',
 			siteSubPath: 'android'
+		}),
+		ios: new ProjectConfig({
+			name: 'Wondeluxe iOS',
+			sourceInputPaths: sourcepaths.ios,
+			xmlSubPath: 'Wondeluxe iOS',
+			siteSubPath: 'ios'
 		})
 	}
 });
