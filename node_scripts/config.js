@@ -18,6 +18,12 @@ export default new DocsConfig({
 			sourceInputPaths: sourcepaths.wondeluxe,
 			xmlSubPath: 'Wondeluxe',
 			siteSubPath: 'wondeluxe'
+		}),
+		build: new ProjectConfig({
+			name: 'Wondeluxe Build',
+			sourceInputPaths: sourcepaths.build,
+			xmlSubPath: 'Wondeluxe Build',
+			siteSubPath: 'build'
 		})
 	}
 });
