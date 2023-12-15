@@ -1,0 +1,35 @@
+{
+	"name": "unity-docs",
+	"version": "0.0.1",
+	"description": "Documentation for the Wondeluxe Unity packages.",
+	"type": "module",
+	"scripts": {
+		"buildxml-wondeluxe": "node node_scripts/buildxml.js wondeluxe",
+		"buildsite-wondeluxe": "node node_scripts/buildsite.js wondeluxe",
+		"build-wondeluxe": "node node_scripts/build.js wondeluxe",
+		"buildxml-build": "node node_scripts/buildxml.js build",
+		"buildsite-build": "node node_scripts/buildsite.js build",
+		"build-build": "node node_scripts/build.js build",
+		"buildxml-android": "node node_scripts/buildxml.js android",
+		"buildsite-android": "node node_scripts/buildsite.js android",
+		"build-android": "node node_scripts/build.js android",
+		"buildxml-ios": "node node_scripts/buildxml.js ios",
+		"buildsite-ios": "node node_scripts/buildsite.js ios",
+		"build-ios": "node node_scripts/build.js ios",
+		"buildxml-tweening": "node node_scripts/buildxml.js tweening",
+		"buildsite-tweening": "node node_scripts/buildsite.js tweening",
+		"build-tweening": "node node_scripts/build.js tweening"
+	},
+	"author": "Geoffrey Walker",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wondeluxe/unity-docs"
+	},
+	"license": "ISC",
+	"funding": [
+		{
+			"type": "paypal",
+			"url": "https://paypal.me/wondeluxe"
+		}
+	]
+}

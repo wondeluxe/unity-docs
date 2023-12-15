@@ -1,0 +1,8 @@
+# Local source code paths
+node_scripts/sourcepaths.js
+
+# Generated XML
+doxygen/XML
+
+# Mac OS
+.DS_Store
