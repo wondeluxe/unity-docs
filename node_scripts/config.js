@@ -24,6 +24,12 @@ export default new DocsConfig({
 			sourceInputPaths: sourcepaths.build,
 			xmlSubPath: 'Wondeluxe Build',
 			siteSubPath: 'build'
+		}),
+		android: new ProjectConfig({
+			name: 'Wondeluxe Android',
+			sourceInputPaths: sourcepaths.android,
+			xmlSubPath: 'Wondeluxe Android',
+			siteSubPath: 'android'
 		})
 	}
 });
