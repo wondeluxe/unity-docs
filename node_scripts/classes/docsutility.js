@@ -12,6 +12,24 @@ import fs from 'fs';
 export default class DocsUtility
 {
 	/**
+	 * Loads and logs the API data for project.
+	 * @param {String} xmlPath - The path to the generated XML for the project.
+	 * @returns {APILoader} An APILoader object containing the loaded API data.
+	 */
+
+	static loadAPI(xmlPath)
+	{
+		let apiLoader = new APILoader();
+		apiLoader.xmlPath = xmlPath;
+		apiLoader.xmlIndexFile = 'index.xml';
+		apiLoader.load();
+
+		console.log(JSON.stringify({namespaces: apiLoader.namespaces}));
+
+		return apiLoader;
+	}
+
+	/**
 	 * Runs Doxygen to generate XML data for a project. This extends the implementation of `Doxsite.runDoxygen`
 	 * by writing project specific properties to the Doxyfile.
 	 * @param {DoxygenConfig} config - The configuration values for the project.

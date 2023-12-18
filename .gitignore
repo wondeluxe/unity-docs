@@ -4,5 +4,8 @@ node_scripts/sourcepaths.js
 # Generated XML
 doxygen/XML
 
+# API logging
+docs/test.php
+
 # Mac OS
 .DS_Store
