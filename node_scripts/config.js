@@ -36,6 +36,12 @@ export default new DocsConfig({
 			sourceInputPaths: sourcepaths.ios,
 			xmlSubPath: 'Wondeluxe iOS',
 			siteSubPath: 'ios'
+		}),
+		tweening: new ProjectConfig({
+			name: 'Wondeluxe Tweening',
+			sourceInputPaths: sourcepaths.tweening,
+			xmlSubPath: 'Wondeluxe Tweening',
+			siteSubPath: 'tweening'
 		})
 	}
 });
